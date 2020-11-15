@@ -107,7 +107,7 @@ try:
     X =  [dT, dV]
     np.savetxt('settings.txt', X, fmt='%f') 
 
-    plt.plot(listT,listV, 'r-')#10
+    plt.plot(listT,listV, 'y-*')#10
     plt.title('График зависимости напряжения на конденсаторе от времени')
     plt.xlabel('Время, с')
     plt.ylabel('Напряжение, В')
